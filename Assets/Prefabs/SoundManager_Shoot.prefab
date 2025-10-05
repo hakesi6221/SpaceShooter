@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8271854643836287345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1911314529828472134}
+  - component: {fileID: 1919290415324303138}
+  m_Layer: 0
+  m_Name: SoundManager_Shoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1911314529828472134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8271854643836287345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1919290415324303138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8271854643836287345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55beaf4fb52b6840a52a979ee955778, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bgmList:
+  - _type: 0
+    _clip: {fileID: 8300000, guid: 02194e4ea202f4ceba74890a32a14947, type: 3}
+    _volume: 1
+    _loop: 1
+    _ofset: 0
+  - _type: 0
+    _clip: {fileID: 8300000, guid: e75df5cd9c1f944ce99e585d983fa119, type: 3}
+    _volume: 1
+    _loop: 1
+    _ofset: 0
+  _seList:
+  - _type: 1
+    _clip: {fileID: 8300000, guid: 033b1daf4512444018111f90f909d172, type: 3}
+    _volume: 0.33
+    _loop: 0
+    _ofset: 0
+  - _type: 1
+    _clip: {fileID: 8300000, guid: eeac7ff7e4ad44587b11429a7e7b8fc1, type: 3}
+    _volume: 1
+    _loop: 0
+    _ofset: 0
+  - _type: 1
+    _clip: {fileID: 8300000, guid: 5a734bcdccebe4d0aa169e4bc43d5210, type: 3}
+    _volume: 1
+    _loop: 0
+    _ofset: 0
+  - _type: 1
+    _clip: {fileID: 8300000, guid: 5f3b12efe1cd3402cb905001e349e8aa, type: 3}
+    _volume: 0.425
+    _loop: 0
+    _ofset: 0
+  _voiceList: []
+  _othersList: []
+  _mixer: {fileID: 24100000, guid: 23af179ab955b3f48adc8d97b6cd7bbd, type: 2}
+  _bgmMixier: {fileID: 6749677943890769533, guid: 23af179ab955b3f48adc8d97b6cd7bbd, type: 2}
+  _seMixier: {fileID: -7171433057590447652, guid: 23af179ab955b3f48adc8d97b6cd7bbd, type: 2}
+  _voiceMixier: {fileID: 5289933653541920198, guid: 23af179ab955b3f48adc8d97b6cd7bbd, type: 2}
+  _othersMixier: {fileID: -7775717285490622936, guid: 23af179ab955b3f48adc8d97b6cd7bbd, type: 2}
+  _defaultFadeRate: 1
