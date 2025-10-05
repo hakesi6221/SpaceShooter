@@ -12,6 +12,9 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# VSCode
+.vscode/
+
 # Exclude specific Resources folder
 Assets/Resources/
 
